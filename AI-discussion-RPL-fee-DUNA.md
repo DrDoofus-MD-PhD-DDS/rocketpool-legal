@@ -1,3 +1,5 @@
+TLDR: pDAO can have fee switch. DUNA members can fully particiapte in pDAO and write RPIPs and recommend voter_share increases as individual pDAO members. DUNA cannot originate or advocate for things that enrich them (so specifically, RPL burn, voter_share increase).
+
 ## 1. The core concern you’re circling
 
 You’re worried about this scenario:
@@ -201,4 +203,231 @@ Boring is good here.
 
 ---
 
- 
+What more specifically is the DUNA allowed to do in regards to steering and RPL fee switch stuff:
+
+ You are thinking about this with **exactly the right level of precision**, and your instinct about where the *real* line is drawn is largely correct. Let me tighten it, correct a couple of over-constraints, and give you a cleaner rule set you can actually operate under.
+
+I’ll break this into:
+
+1. What the real legal risk is
+2. Where your reasoning is correct
+3. Where it’s slightly too strict
+4. A workable, defensible rule set for a DUNA-backed committee model
+
+---
+
+## 1. What the *actual* DUNA risk is (very important)
+
+The legal issue is **not**:
+
+> “DUNA members personally benefit from protocol changes somewhere else”
+
+That is **allowed**.
+
+The legal issue **is**:
+
+> **Whether the DUNA itself is acting *for the purpose* of enriching its members.**
+
+Courts and regulators focus on **organizational purpose and conduct**, not incidental personal overlap.
+
+So the key question becomes:
+
+> *Is the DUNA, as an organization, deliberately exercising its authority to increase economic returns to its own members?*
+
+If yes → **problem**
+If no → **generally acceptable**
+
+---
+
+## 2. Where your reasoning is correct
+
+You are absolutely right about the **most dangerous category**:
+
+### ❌ Direct DUNA actions that increase RPL-based yield
+
+These would be problematic:
+
+* DUNA-originated recommendations to:
+
+  * Increase `voter_share`
+  * Add or expand RPL fee flows
+  * Implement RPL burns
+  * Change commission structures tied to RPL value
+* DUNA resolutions or reports advocating those changes
+* A “Steering Committee” within the DUNA proposing tokenomics changes
+
+Why?
+Because that looks like:
+
+> “A nonprofit body acting to increase the economic return of its members”
+
+That *can* violate nonprofit principles, even if indirect.
+
+You are also correct that:
+
+> The specific danger vector is **voter_share → ETH fees → RPL stakers**
+
+That’s the cleanest place a plaintiff or regulator would point.
+
+---
+
+## 3. Where your current framing is *too strict*
+
+This part is important so you don’t unnecessarily hamstring governance.
+
+### ✅ DUNA members can still participate in pDAO governance
+
+A DUNA member **may**:
+
+* Vote in the pDAO
+* Propose RPIPs *in their personal capacity*
+* Advocate positions publicly *as individuals*
+* Discuss tokenomics in DAO forums
+
+Because:
+
+* The pDAO is not the DUNA
+* The vote is not a DUNA action
+* The benefit is mediated by a large, open electorate
+* The outcome is not guaranteed
+
+Courts are very comfortable with:
+
+> “People wearing different hats in different contexts”
+
+What matters is that:
+
+* The DUNA is not the *author*
+* The DUNA is not the *sponsor*
+* The DUNA is not the *decision-maker*
+
+---
+
+## 4. The subtle but crucial correction
+
+You said:
+
+> “The committees could enact pDAO things that changed voter_share but they could not originate them.”
+
+This is **almost right**, but the safer version is slightly different:
+
+### Safer rule:
+
+* **DUNA-backed committees should not *officially initiate, sponsor, or recommend* changes whose primary effect is increasing RPL economic value**
+* But **committee members may still participate individually in the DAO process**
+
+So:
+
+* ❌ “The GMC recommends increasing voter_share”
+* ❌ “The Steering Committee proposes an RPIP to raise RPL yield”
+* ❌ “The DUNA believes RPL burns should be implemented”
+
+But:
+
+* ✅ “An individual pDAO member proposes an RPIP”
+* ✅ “DUNA member votes yes in DAO vote”
+* ✅ “RPIP Editors process an RPIP neutrally, regardless of content”
+
+---
+
+## 5. RPIP Editors are actually the *least* risky group
+
+You’re right to single them out, but let’s be precise.
+
+RPIP Editors:
+
+* Do not author policy
+* Do not advocate outcomes
+* Do not control passage
+* Do not implement changes
+
+They perform **ministerial and procedural functions**.
+
+So:
+
+* Editing, formatting, coordinating RPIPs — even those affecting tokenomics — is **fine**
+* As long as editors:
+
+  * Do not endorse the proposal
+  * Do not recommend it
+  * Do not frame it as “best for the protocol”
+
+This is exactly like:
+
+* Legislative clerks
+* Parliamentary counsel
+* Standards editors
+
+Very defensible.
+
+---
+
+## 6. The clean rule set you want (this is the usable part)
+
+If you pursue a DUNA, here is a **clear, defensible operating doctrine**:
+
+### A. What the DUNA **may do**
+
+* Administer committee budgets
+* Pay stipends and vendors
+* Coordinate grants and incentives
+* Handle contracts and insurance
+* Support security and emergency actions
+* Execute pDAO-authorized tasks
+* Indemnify committee members
+
+### B. What the DUNA **must not do**
+
+* Originate or sponsor tokenomics changes
+* Advocate increases in RPL-based returns
+* Recommend changes to `voter_share`
+* Propose burns or fee reallocations
+* Frame protocol decisions in terms of “holder value”
+
+### C. What DUNA members **may still do individually**
+
+* Stake RPL
+* Run nodes
+* Earn ETH fees
+* Vote in the pDAO
+* Propose RPIPs in personal capacity
+* Advocate positions as community members
+
+### D. How to document this safely
+
+In the DUNA charter or policies:
+
+* Explicit conflict-of-interest language
+* Explicit prohibition on economic advocacy
+* Clear separation of hats
+* Clear statement that token economics are **outside scope**
+
+---
+
+## 7. Bottom line (very clear)
+
+Your concern is **valid**, your instinct is **correct**, and your line-drawing is **nearly perfect**.
+
+The refined answer is:
+
+> **A DUNA is compatible with committee governance even if members stake RPL and earn fees — as long as the DUNA does not act to increase those fees.**
+
+That means:
+
+* The DUNA cannot be the *driver* of token value changes
+* But it does not need to muzzle individuals
+* And it does not require excluding RPL stakers from committees
+
+This is a **manageable constraint**, not a dealbreaker.
+
+---
+
+If you want, next I can:
+
+* Draft **exact charter language** implementing this safely
+* Compare whether a **US LLC actually solves this more cleanly**
+* Propose a **hybrid: DUNA for ops + DAO-only tokenomics firewall**
+* Stress-test this under a hostile plaintiff theory
+
+Just tell me where to go next.
+
