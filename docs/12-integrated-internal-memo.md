@@ -1,6 +1,6 @@
 # Internal Memo: A Committee-First Legal Service Layer for Rocket Pool pDAO Work
 
-**Status:** Reusable draft copy derived from `docs/12-integrated-internal-memo.md`  
+**Status:** Canonical integrated memo derived from the structured docs  
 **Audience:** pDAO committee members, contributors, delegates, core team liaisons, and legal/tax counsel  
 **Purpose:** Explain why the pDAO may want a narrow legal service layer for committee and administrative work, without creating a central board, management company, or legal wrapper for the entire pDAO.
 
@@ -191,4 +191,4 @@ The intended outcome is modest: give people doing approved work a safer and clea
 
 ---
 
-This draft is for reuse in discussions and does not constitute legal or tax advice. The canonical version lives in `docs/12-integrated-internal-memo.md`.
+This memo is part of the canonical `docs/` set, but it is still a working research document. It does not constitute legal or tax advice.

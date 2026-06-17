@@ -1,6 +1,6 @@
 # Docs Index
 
-This folder contains the reorganized working documentation for a Rocket Pool pDAO legal service-layer project.
+This folder contains the canonical working documentation for a Rocket Pool pDAO legal service-layer project.
 
 These documents are written for non-lawyers. They should help the pDAO decide what to ask counsel, what problem it is trying to solve, and what language to use publicly. They should not be treated as legal or tax advice.
 
@@ -18,7 +18,13 @@ These documents are written for non-lawyers. They should help the pDAO decide wh
 - `09-tax-and-accounting-questions.md` — tax issues that need professional review.
 - `10-language-guide.md` — words to use and avoid.
 - `11-open-questions-for-counsel.md` — consolidated counsel checklist.
+- `12-integrated-internal-memo.md` — single narrative memo version of the structured docs.
 
 ## Working principle
 
 The pDAO remains the governance layer. The legal structure, if adopted, should be a narrow service layer for committee and administrative work.
+
+
+## Canonical status
+
+The main docs should contain all needed information. Files in `../drafts/` are optional communication drafts derived from this folder and should not be treated as a separate source of truth. If a draft introduces a new point, that point should be moved into the appropriate `docs/` file.
