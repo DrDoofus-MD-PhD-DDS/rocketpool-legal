@@ -18,13 +18,11 @@ These documents are written for non-lawyers. They should help the pDAO decide wh
 - `09-tax-and-accounting-questions.md` — tax issues that need professional review.
 - `10-language-guide.md` — words to use and avoid.
 - `11-open-questions-for-counsel.md` — consolidated counsel checklist.
-- `12-integrated-internal-memo.md` — single narrative memo version of the structured docs.
 
 ## Working principle
 
 The pDAO remains the governance layer. The legal structure, if adopted, should be a narrow service layer for committee and administrative work.
 
-
 ## Canonical status
 
-The main docs should contain all needed information. Files in `../drafts/` are optional communication drafts derived from this folder and should not be treated as a separate source of truth. If a draft introduces a new point, that point should be moved into the appropriate `docs/` file.
+This folder should contain the complete current working analysis. There is no separate memo that must be read to understand the project. Files in `../drafts/` are optional implementation or communication drafts derived from this folder and should not be treated as a separate source of truth. If a draft introduces a new point, that point should be moved into the appropriate `docs/` file.
