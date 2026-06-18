@@ -10,9 +10,11 @@ Core framing:
 
 ## Canonical documentation
 
-The `docs/` folder is the canonical working documentation. It should contain all information needed to understand the current proposal, the design guardrails, and the open questions for counsel.
+The `docs/` folder is the canonical working documentation. It should contain all information needed to understand the current proposal, design guardrails, and open questions for counsel.
 
-The `drafts/` folder is optional. Drafts are communication artifacts derived from the main docs, such as a memo, charter outline, or governance proposal outline. Drafts should not contain unique assumptions or conclusions that are missing from `docs/`.
+There is intentionally **no separate internal memo as a second source of truth**. Earlier memo-style drafts were useful for developing the project, but they duplicate the structured docs. If the project needs a memo later, it should be generated from the docs rather than maintained separately.
+
+The `drafts/` folder is optional. It contains implementation or communication templates derived from the main docs, such as charter principles or a governance proposal outline. Drafts should not contain unique assumptions, legal conclusions, tax questions, or policy recommendations missing from `docs/`.
 
 The `research-notes/` folder preserves source material and AI discussion summaries. Those notes are useful background, but they are not the current recommendation.
 
@@ -21,7 +23,7 @@ The `research-notes/` folder preserves source material and AI discussion summari
 For a fast understanding:
 
 1. [`docs/01-executive-summary.md`](docs/01-executive-summary.md)
-2. [`docs/12-integrated-internal-memo.md`](docs/12-integrated-internal-memo.md)
+2. [`docs/05-duna-service-layer.md`](docs/05-duna-service-layer.md)
 3. [`docs/11-open-questions-for-counsel.md`](docs/11-open-questions-for-counsel.md)
 
 For the full structured analysis:
@@ -38,7 +40,6 @@ For the full structured analysis:
 10. [`docs/09-tax-and-accounting-questions.md`](docs/09-tax-and-accounting-questions.md)
 11. [`docs/10-language-guide.md`](docs/10-language-guide.md)
 12. [`docs/11-open-questions-for-counsel.md`](docs/11-open-questions-for-counsel.md)
-13. [`docs/12-integrated-internal-memo.md`](docs/12-integrated-internal-memo.md)
 
 ## Status labels used in these docs
 
@@ -57,4 +58,4 @@ The older root-level AI-generated files are intentionally left in place for hist
 
 ## Maintenance rule
 
-If a future draft contains a new factual assumption, legal conclusion, tax question, design guardrail, or practical recommendation, copy that point into the appropriate file under `docs/`. The docs are the source of truth; drafts are for reuse and presentation.
+If a future draft, discussion note, or counsel memo contains a new factual assumption, legal conclusion, tax question, design guardrail, or practical recommendation, copy that point into the appropriate file under `docs/`. The docs are the source of truth; drafts and research notes are supporting material only.
